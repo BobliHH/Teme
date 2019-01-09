@@ -1,4 +1,4 @@
-package Tema1;//2.	Create a class Tema1.Dog that extends class Tema1.Animal
+//2.	Create a class Dog that extends class Animal
 
 public class Dog extends Animal {
     //2.a.	Add private field color
@@ -45,13 +45,13 @@ public class Dog extends Animal {
     }
 
 
-    //4.	Create a new public method named "bark" in class Tema1.Dog
+    //4.	Create a new public method named "bark" in class Dog
     public void bark() {
         System.out.println("Bark!!!");
 
     }
 
-    //6.	Override toString() method in class Tema1.Dog. In this implementation call the parent implementation.
+    //6.	Override toString() method in class Dog. In this implementation call the parent implementation.
     @Override
     public String toString() {
         return super.toString() + "color " + color;

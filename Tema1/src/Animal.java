@@ -1,6 +1,4 @@
-package Tema1;
-
-//1.	Create a class Tema1.Animal with the following fields: age, numberOfLegs, vegetarian.
+//1.	Create a class Animal with the following fields: age, numberOfLegs, vegetarian.
 public class Animal {
     Integer age;
     Integer numberOfLegs;
@@ -36,12 +34,12 @@ public class Animal {
         return vegetarian;
     }
 
-//1.c.	Write a method called eat that will print the message "Tema1.Animal is eating".
+//1.c.	Write a method called eat that will print the message "Animal is eating".
     public void eat(){
-        System.out.println("Tema1.Animal is eating.");
+        System.out.println("Animal is eating.");
     }
 
-//5.	Override toString() method in class Tema1.Animal
+//5.	Override toString() method in class Animal
     @Override
     public String toString(){
         return age.toString()+numberOfLegs.toString()+vegetarian.toString();

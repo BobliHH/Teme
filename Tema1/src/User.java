@@ -1,6 +1,4 @@
-package Tema1;
-
-//Create a class Tema1.User with the following fields: username, firstName, lastName.
+//Create a class User with the following fields: username, firstName, lastName.
 //a.	Make the fields private
 //d.	Make the object immutable (final)
 public final class User {
