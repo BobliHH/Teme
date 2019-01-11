@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Breath {
+public interface Breath {
+    void breath();
 }

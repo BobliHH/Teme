@@ -24,19 +24,7 @@ public final class User {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-
-
-    }
 //e.	Write a public method generateDisplayName that returns a string with the full name of the user.
     public String generateDisplayName(){
 

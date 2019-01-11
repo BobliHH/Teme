@@ -1,8 +1,8 @@
 //1.	Create a class Animal with the following fields: age, numberOfLegs, vegetarian.
 public class Animal {
-    Integer age;
-    Integer numberOfLegs;
-    Boolean vegetarian;
+    private Integer age;
+    private Integer numberOfLegs;
+    private Boolean vegetarian;
 //1. a.	Write a constructor with parameters
     public Animal(Integer age, Integer numberOfLegs, Boolean vegetarian) {
         this.age = age;

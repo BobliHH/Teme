@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public interface Swim {
 
-public class Swim {
+    void swim(Boolean n);
+
+
 }

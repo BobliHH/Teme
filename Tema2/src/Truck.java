@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Truck extends Vehicle {
 
-public class Truck {
+    public void printState(Integer value) {
+        Truck truck = new Truck();
+        truck.changeGear(2);
+        truck.applyBrakes(1);
+        truck.printState(2);
+
+    }
 }

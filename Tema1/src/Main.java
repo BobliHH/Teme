@@ -18,14 +18,23 @@ public class Main {
         ((Dog) dog2).bark();
 
     //7.	Instantiate 2 objects Animal and Dog and assign it to an Animal instance.
-        Animal Animal = new Animal(7, 4, true);
-        Animal Dog = new Dog("White", 10, 4, false);
+        Animal animal2 = new Animal(7, 4, true);
+        Animal dogx = new Dog("White", 10, 4, false);
 
     //7.a.  Call toString() method for both objects.
-        Animal.toString();
-        Dog.toString();
-
+        animal2.toString();
+        dogx.toString();
+     //8.a.	Call the method by passing an animal object
+        Main.displayAnimalCharacteristics(animal2);
+    // 8.b.	Call the method by passing a dog object
+        Main.displayAnimalCharacteristics(dogx);
     }
     //8.	In the Main class create a method that receives an Animal object and print the details of that object.
+
+    public static void displayAnimalCharacteristics(Animal animal){
+        System.out.println(animal);
+
+
+    }
 
 }

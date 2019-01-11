@@ -12,29 +12,6 @@ public class Dog extends Animal {
     }
 
     //2.c.	Write getters and setters
-    public void setVegetarian(Boolean vegetarian) {
-        super.setVegetarian(vegetarian);
-    }
-
-    public void setNumberOfLegs(Integer numberOfLegs) {
-        super.setNumberOfLegs(numberOfLegs);
-    }
-
-    public void setAge(Integer age) {
-        super.setAge(age);
-    }
-
-    public Integer getNumberOfLegs() {
-        return super.getNumberOfLegs();
-    }
-
-    public Boolean getVegetarian() {
-        return super.getVegetarian();
-    }
-
-    public Integer getAge() {
-        return super.getAge();
-    }
 
     public void setColor(String color) {
         this.color = color;
